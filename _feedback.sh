@@ -19,7 +19,7 @@ echo -n "Their username: "
 read tGHU
 git clone --depth 1 --no-checkout https://github.com/w201rdada/portfolio-$tGHU || true
 cd portfolio-$tGHU
-git config --global core.autocrlf input
+git config core.autocrlf input
 echo
 git log -1
 echo "
