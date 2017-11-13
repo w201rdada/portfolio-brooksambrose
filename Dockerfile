@@ -1,5 +1,2 @@
-FROM rocker/binder:latest
-USER root
+FROM rocker-org/binder:3.4.2
 COPY . /home/rstudio/
-USER ${NB_USER}
-CMD jupyter notebook --ip 0.0.0.0
