@@ -1,2 +1,2 @@
-FROM rocker-org/binder:3.4.2
+FROM rocker/binder
 COPY . /home/rstudio/
