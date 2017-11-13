@@ -1,2 +1,2 @@
-FROM w201rdada/portfolio:7b39d5b
+FROM w201rdada/portfolio:fa17
 COPY . /home/rstudio/
