@@ -1,3 +1,3 @@
 FROM w201rdada/portfolio:657d111
-USER rstudio
 COPY . /home/rstudio/
+RUN chown -R rstudio:rstudio *
