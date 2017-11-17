@@ -9,7 +9,7 @@ git checkout master
 
 cd /home/rstudio/ \
 && rm -rf docs/ \
-&& mv -u -T _book/ docs/
+&& cp -u -T _book/ docs/
 
 # assuming you've already built it, replace old docs with new _books build
 echo "User-agent: *
