@@ -1,5 +1,6 @@
 FROM w201rdada/final:sp18
 USER root
-RUN chown -R ${NB_USER}:${NB_USER} ${HOME}
-USER ${NB_USER}
+COPY . /home/rstudio/
+RUN chown -R rstudio:rstudio * .*
+USER rstudio
 #force rebuild
